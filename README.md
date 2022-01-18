@@ -1,2 +1,3 @@
 # type-challenges
-typescript 类型体操
+
+> typescript 类型体操

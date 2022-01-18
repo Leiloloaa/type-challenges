@@ -1,0 +1,34 @@
+{
+  "name": "type-challenges",
+  "version": "1.0.0",
+  "description": "test driver learn typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leiloloaa/type-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leiloloaa/type-challenges/issues"
+  },
+  "homepage": "https://github.com/Leiloloaa/type-challenges#readme",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1",
+    "tsd": "^0.19.1"
+  },
+  "tsd": {
+    "directory": "test-dts",
+    "compilerOptions": {
+      "strict": false,
+      "lib": [
+        "esnext",
+        "dom"
+      ]
+    }
+  }
+}
