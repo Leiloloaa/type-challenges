@@ -1,7 +1,9 @@
 // 只读类型
-type MyReadonly<T> = { readonly [K in keyof T]: T[K] }
+type MyReadonly<T> = {
+  readonly [P in keyof T]: T[P]
+}
 
-// js
+// js 类比
 function readonly(obj) {
   const result = {};
 
